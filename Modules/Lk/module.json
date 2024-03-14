@@ -1,0 +1,14 @@
+{
+    "name": "Lk",
+    "alias": "lk",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\Lk\\Providers\\LkServiceProvider",
+        "Modules\\Lk\\Providers\\EventServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

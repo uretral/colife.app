@@ -1,0 +1,193 @@
+@import "smart-grid";
+.bonus {
+    .col();
+    .size(12);
+    &-header {
+        .semiBold;
+        font-size: 24px;
+        color: var(--color-text-bold);
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+
+        a {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            text-decoration: none;
+            background: url("../img/icons/chevron-right.svg") no-repeat center;
+            box-sizing: border-box;
+            flex-shrink: 0;
+            margin-right: 8px;
+
+        }
+    }
+
+
+    &-body {
+        .row-flex;
+        height: calc(100vh - 150px);
+        overflow-y: auto;
+        .sm-block({
+            height: calc(100vh - 220px);
+        });
+        h2 {
+            .col();
+            .size(12);
+            .semiBold;
+            font-size: 24px;
+            color: var(--color-text-bold);
+            margin-top: 36px;
+            margin-bottom: 16px;
+        }
+
+        .xs-block({
+            height: auto;
+            overflow-y: unset;
+        });
+    }
+
+    &-general {
+        .col();
+        .size(8);
+        .size-xs(12);
+        .box-32-24;
+        color: var(--color-text-bold);
+        .xs-block({
+            padding: 24px 16px;
+        });
+        h3 {
+            font-size: 24px;
+            color: var(--color-text-bold);
+            .semiBold;
+        }
+
+        ul {
+            width: 100%;
+            li {
+                margin-top: 20px;
+                display: flex;
+                &:before {
+                    content: '';
+                    display: block;
+                    width: 24px;
+                    height: 24px;
+                    background: url("../img/icons/check-accent.svg") no-repeat center;
+                    margin-right: 8px;
+                    flex-shrink: 0;
+                }
+            }
+        }
+        &_bg {
+            .col();
+            .size(4);
+            .size-xs(12);
+            .box-32-24;
+            background-image: url("../img/bg/bg-bonus.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: calc(100% - 48px) auto;
+            .xs-block({
+                background-image: url("../img/bg/bg-bonus-mobile.svg");
+                margin-top: 16px;
+            });
+
+
+
+        }
+    }
+
+    &-section {
+        .col();
+        .size(12);
+        .box-32-24;
+        margin-bottom: 16px;
+        .xs-block({
+            padding: 24px 16px;
+        });
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+
+        h3 {
+            .darkBoldText(16px);
+            margin-bottom: 28px;
+        }
+
+        ul {
+            width: 100%;
+            li {
+                margin-top: 20px;
+                display: flex;
+                &:before {
+                    content: '';
+                    display: block;
+                    width: 20px;
+                    height: 20px;
+                    background: url("../img/icons/arrow-right-accent.svg") no-repeat center;
+                    margin-right: 8px;
+                    flex-shrink: 0;
+                }
+            }
+        }
+    }
+
+    &-announces {
+        .row-flex;
+
+    }
+    &-announce {
+        .col();
+        .size(3);
+        .size-xs(12);
+
+        /* one item */
+        &:first-child:nth-last-child(1) {
+            .size(12);
+        }
+
+        .xs-block({
+            margin-bottom: 20px;
+        });
+
+/*        !* two items *!
+        &:first-child:nth-last-child(2),
+        &:first-child:nth-last-child(2) ~ li {
+            width: 50%;
+        }
+
+        !* three items *!
+        &:first-child:nth-last-child(3),
+        &:first-child:nth-last-child(3) ~ li {
+            width: 33.3333%;
+        }
+
+        !* four items *!
+        &:first-child:nth-last-child(4),
+        &:first-child:nth-last-child(4) ~ li {
+            width: 25%;
+        }*/
+
+        h4 {
+            font-size: 24px;
+            .semiBold;
+            color: var(--color-accent);
+            white-space: nowrap;
+            .sm-block({
+                font-size: 20px;
+            });
+
+            .xs-block({
+                font-size: 24px;
+            });
+        }
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+
+
+}

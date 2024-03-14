@@ -1,0 +1,132 @@
+@import "smart-grid";
+
+
+.register {
+
+    .section {
+        min-height: calc(100vh - 180px);
+        justify-content: space-between;
+        align-items: center;
+
+        .sm-block({
+            flex-direction: column;
+            justify-content: center;
+            min-height: 100vh;
+        });
+    }
+
+
+    &-form {
+        .col();
+        .size(5.4);
+        .size-md(12);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: border-box;
+        padding-left: 28px;
+        padding-right: 4%;
+        .md-block({
+            padding-left: 90px;
+            padding-right: 90px;
+            margin-bottom: 100px;
+
+        });
+        .xs-block({
+            padding-left: 0;
+            padding-right: 0;
+            height: auto;
+            margin-bottom: 0;
+            justify-content: start;
+        });
+
+        h2 {
+            font-size: 32px;
+            .semiBold;
+            margin-bottom: 16px;
+            color: var(--color-text-bold);
+            .sm-block({
+                font-size: 28px;
+            });
+        }
+
+        .badge {
+            margin-top: 30px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            margin-bottom: 28px;
+
+        }
+
+        p {
+            vertical-align: top;
+
+            &:last-of-type {
+                //margin-top: 40px;
+            }
+
+        }
+
+        fieldset {
+            box-sizing: border-box;
+
+        }
+
+        .checkbox {
+            margin-top: 28px;
+        }
+    }
+
+    &-images {
+        .col();
+        .size(6.6);
+        padding-right: 28px;
+        .md-block({
+            display: none;
+        });
+    }
+
+    &.confirm {
+
+        .register-images {
+            display: block;
+            .size-md(12);
+            overflow-y: unset;
+            .md-block({
+                padding-left: 90px;
+                padding-right: 90px;
+            });
+            .xs-block({
+                padding-left: 0;
+                padding-right: 0;
+                margin-top: 46px;
+
+            });
+        }
+
+    }
+
+    &.auth {
+        h2 {
+            margin-bottom: 40px;
+        }
+
+        button.accent {
+            margin-bottom: 36px;
+        }
+
+        label {
+            margin-bottom: 16px;
+
+            &:last-of-type {
+                margin-bottom: 28px;
+            }
+        }
+    }
+
+    .support-link{
+        margin-top: 16px;
+    }
+}

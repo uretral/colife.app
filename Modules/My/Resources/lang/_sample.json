@@ -1,0 +1,162 @@
+[
+    {
+        "en": "Hi,",
+        "ru": "Привет,",
+        "key": "hi"
+    },
+    {
+        "en": "Here is the data about your income from Colife and news",
+        "ru": "Здесь данные о ваших доходах с Colife и новости",
+        "key": "greeting"
+    },
+    {
+        "en": "Finance",
+        "ru": "Финансы",
+        "key": "btn-finance"
+    },
+    {
+        "en": "News",
+        "ru": "Новости",
+        "key": "btn-news"
+    },
+    {
+        "en": "News",
+        "ru": "Новости",
+        "key": "title-news"
+    },
+    {
+        "en": "All news",
+        "ru": "Все новости",
+        "key": "all-news"
+    },
+    {
+        "en": "News Search",
+        "ru": "Поиск по новостям",
+        "key": "news search"
+    },
+    {
+        "en": "Key indicators",
+        "ru": "Ключевые показатели",
+        "key": "block-key-indicators"
+    },
+    {
+        "en": "Turnover",
+        "ru": "Оборот",
+        "key": "block-turnover"
+    },
+    {
+        "en": "Expenses",
+        "ru": "Расходы",
+        "key": "block-expenses"
+    },
+    {
+        "en": "Investment",
+        "ru": "Инвестиции",
+        "key": "block-investment"
+    },
+    {
+        "en": "Number of apartments",
+        "ru": "Кол-во квартир",
+        "key": "col-number-of-apartments"
+    },
+    {
+        "en": "Busyness",
+        "ru": "Занятость",
+        "key": "col-busyness"
+    },
+    {
+        "en": "Total income",
+        "ru": "Общий доход",
+        "key": "col-total-income"
+    },
+    {
+        "en": "Status of apartments",
+        "ru": "Статус квартир",
+        "key": "col-status-of-apartments"
+    },
+    {
+        "en": "Fully commissioned",
+        "ru": "Полностью сданы",
+        "key": "cell-fully-commissioned"
+    },
+    {
+        "en": "In search of tenants",
+        "ru": "В поиске жильцов",
+        "key": "cell-in-search-of-tenants"
+    },
+    {
+        "en": "Impressions of free",
+        "ru": "Показы свободных",
+        "key": "cell-impressions-of-free"
+    },
+    {
+        "en": "Listings",
+        "ru": "Листинги",
+        "key": "col-listings"
+    },
+    {
+        "en": "sutochno.ru",
+        "ru": "Суточно.ру",
+        "key": "cell-listings-0"
+    },
+    {
+        "en": "Cian",
+        "ru": "Циан",
+        "key": "cell-listings-1"
+    },
+    {
+        "en": "Avito",
+        "ru": "Авито",
+        "key": "cell-listings-2"
+    },
+    {
+        "en": "realty.ya.ru",
+        "ru": "Яндекс Недвижимость",
+        "key": "cell-listings-3"
+    },
+    {
+        "en": "total income",
+        "ru": "суммарный доход",
+        "key": "cell-total-income"
+    },
+    {
+        "en": "total expense",
+        "ru": "суммарный расход",
+        "key": "cell-total-expense"
+    },
+    {
+        "en": "internet",
+        "ru": "интернет",
+        "key": "cell-internet"
+    },
+    {
+        "en": "electricity and water",
+        "ru": "электрич-во и вода",
+        "key": "cell-electricity-and-water"
+    },
+    {
+        "en": "conditioner",
+        "ru": "кондиционер",
+        "key": "cell-conditioner"
+    },
+    {
+        "en": "gas",
+        "ru": "газ",
+        "key": "cell-gas"
+    },
+    {
+        "en": "Purchase",
+        "ru": "Покупка",
+        "key": "cell-purchase"
+    },
+    {
+        "en": "Expenses",
+        "ru": "Затраты",
+        "key": "cell-expenses"
+    },
+    {
+        "en": "ROI",
+        "ru": "ROI",
+        "key": "cell-roi"
+    }
+]

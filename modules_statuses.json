@@ -1,0 +1,8 @@
+{
+    "CrmApi": true,
+    "My": true,
+    "LayoutMy": false,
+    "Admin": true,
+    "Tenant": false,
+    "Lk": true
+}

@@ -1,0 +1,56 @@
+[
+    {
+        "id": 5848,
+        "date": null,
+        "period_start": "01.07.2023",
+        "period_end": "31.07.2023",
+        "apartment": {
+            "estate_id": 216,
+            "estate_address": "AP 105. Candace Aster, ap. 514"
+        },
+        "amount": {
+            "value": "36051",
+            "currency": "AED"
+        },
+        "landlord": "14840",
+        "category": "302",
+        "comment": "оплата за ремонт",
+        "type": "Receive"
+    },
+    {
+        "id": 5850,
+        "date": null,
+        "period_start": "01.08.2023",
+        "period_end": "31.08.2023",
+        "apartment": {
+            "estate_id": 216,
+            "estate_address": "AP 105. Candace Aster, ap. 514"
+        },
+        "amount": {
+            "value": "2100",
+            "currency": "AED"
+        },
+        "landlord": "14840",
+        "category": "Поступления от собственника (Received from owner)",
+        "comment": null,
+        "type": "Receive"
+    },
+    {
+        "id": 5854,
+        "date": null,
+        "period_start": "01.08.2023",
+        "period_end": "31.08.2023",
+        "apartment": {
+            "estate_id": 216,
+            "estate_address": "AP 105. Candace Aster, ap. 514"
+        },
+        "amount": {
+            "value": "4550",
+            "currency": "AED"
+        },
+        "landlord": "14840",
+        "category": "304",
+        "comment": null,
+        "type": "Expenses"
+    }
+]

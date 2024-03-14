@@ -1,0 +1,146 @@
+[
+    {
+        "id": 5076,
+        "date": null,
+        "period_start": "01.07.2023",
+        "period_end": "31.07.2023",
+        "apartment": {
+            "estate_id": 216,
+            "estate_address": "AP 105. Candace Aster, ap. 514"
+        },
+        "amount": {
+            "value": "2130",
+            "currency": "AED"
+        },
+        "landlord": "14840",
+        "file": null,
+        "comment": "комментарий для собственника о том почему платеж один",
+        "payment_type": "Элект-во и вода (DEWA)"
+    },
+    {
+        "id": 5078,
+        "date": null,
+        "period_start": "01.07.2023",
+        "period_end": "31.07.2023",
+        "apartment": {
+            "estate_id": 216,
+            "estate_address": "AP 105. Candace Aster, ap. 514"
+        },
+        "amount": {
+            "value": "1025",
+            "currency": "AED"
+        },
+        "landlord": "14840",
+        "file": null,
+        "comment": null,
+        "payment_type": "Газ (Gas)"
+    },
+    {
+        "id": 5806,
+        "date": null,
+        "period_start": "01.07.2023",
+        "period_end": "31.07.2023",
+        "apartment": {
+            "estate_id": 216,
+            "estate_address": "AP 105. Candace Aster, ap. 514"
+        },
+        "amount": {
+            "value": "34592",
+            "currency": "AED"
+        },
+        "landlord": "14840",
+        "file": null,
+        "comment": "стоимость сметы за ремонт",
+        "payment_type": "Смета (Quotation)"
+    },
+    {
+        "id": 5814,
+        "date": null,
+        "period_start": "01.08.2023",
+        "period_end": "31.08.2023",
+        "apartment": {
+            "estate_id": 216,
+            "estate_address": "AP 105. Candace Aster, ap. 514"
+        },
+        "amount": {
+            "value": "545.27",
+            "currency": "AED"
+        },
+        "landlord": "14840",
+        "file": null,
+        "comment": null,
+        "payment_type": "Интернет (Internet)"
+    },
+    {
+        "id": 5816,
+        "date": null,
+        "period_start": "01.08.2023",
+        "period_end": "31.08.2023",
+        "apartment": {
+            "estate_id": 216,
+            "estate_address": "AP 105. Candace Aster, ap. 514"
+        },
+        "amount": {
+            "value": "400",
+            "currency": "AED"
+        },
+        "landlord": "14840",
+        "file": null,
+        "comment": "за что расход, пояснение для собственника",
+        "payment_type": "Техобслуживание (Maintenance)"
+    },
+    {
+        "id": 5822,
+        "date": null,
+        "period_start": "01.10.2023",
+        "period_end": "31.10.2023",
+        "apartment": {
+            "estate_id": 216,
+            "estate_address": "AP 105. Candace Aster, ap. 514"
+        },
+        "amount": {
+            "value": "1155",
+            "currency": "AED"
+        },
+        "landlord": "14840",
+        "file": null,
+        "comment": null,
+        "payment_type": "Comission of Colife"
+    },
+    {
+        "id": 5852,
+        "date": null,
+        "period_start": "01.11.2023",
+        "period_end": "30.11.2023",
+        "apartment": {
+            "estate_id": 216,
+            "estate_address": "AP 105. Candace Aster, ap. 514"
+        },
+        "amount": {
+            "value": "1000",
+            "currency": "AED"
+        },
+        "landlord": "14840",
+        "file": null,
+        "comment": "Comment that the landlord will see",
+        "payment_type": "Техобслуживание (Maintenance)"
+    },
+    {
+        "id": 5886,
+        "date": null,
+        "period_start": "01.11.2023",
+        "period_end": "31.01.2024",
+        "apartment": {
+            "estate_id": 216,
+            "estate_address": "AP 105. Candace Aster, ap. 514"
+        },
+        "amount": {
+            "value": "1000",
+            "currency": "AED"
+        },
+        "landlord": "14840",
+        "file": null,
+        "comment": "Comment that the landlord will see",
+        "payment_type": "Газ (Gas)"
+    }
+]

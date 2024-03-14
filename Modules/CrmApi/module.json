@@ -1,0 +1,11 @@
+{
+    "name": "CrmApi",
+    "alias": "crmapi",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CrmApi\\Providers\\CrmApiServiceProvider"
+    ],
+    "files": []
+}

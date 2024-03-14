@@ -1,0 +1,118 @@
+@import "smart-grid";
+.faq {
+    &-header {
+        .col();
+        .size(12);
+        padding: 24px 0;
+        .xs-block({
+            display: flex;
+            padding: 0;
+            overflow-x: auto;
+            margin-left: 0;
+            margin-right: 0;
+            width: 100%;
+        });
+        a.anchor {
+            border: 1px solid var(--color-text);
+            border-radius: 8px;
+            height: 32px;
+            display: inline-flex;
+            align-items: center;
+            .semiBold;
+            font-size: 14px;
+            margin-right: 6px;
+            text-decoration: none;
+            padding: 0 16px;
+            color: var(--color-text-bold);
+            .xs-block({
+                flex-shrink: 0;
+                &:first-of-type {
+                    margin-left: 12px;
+                }
+            });
+            &.active, &:hover {
+                border-color: var(--color-accent);
+                color: var(--color-accent);
+            }
+        }
+    }
+    &-body {
+        .col();
+        .size(12);
+        //max-height: calc(100vh - 220px);
+        .support-frame-height(70px);
+        overflow: auto;
+        padding-right: 24px;
+
+        .sm-block({
+            border: unset;
+            //border-top: 1px solid var(--color-border);
+            //border-bottom: 1px solid var(--color-border);
+            border-radius: 0;
+        });
+
+        .xs-block({
+            border-top: unset;
+            border-bottom: unset;
+            flex-grow: 1;
+            padding-right: 0;
+            width: calc(100% - @fields_sm / 2);
+            //overflow-y: initial;
+        });
+
+        section {
+            h2 {
+                font-size: 24px;
+                .semiBold;
+                color: var(--color-text-bold);
+                margin-bottom: 16px;
+
+            }
+        }
+
+        article {
+            border-top: 1px solid var(--color-border-dark);
+            padding: 16px 0;
+
+
+            h3 {
+                color: var(--color-text-bold);
+                background: url("../img/icons/chevron-down2.svg") no-repeat right 0;
+                box-sizing: border-box;
+                padding-right: 30px;
+                cursor: pointer;
+            }
+
+            .faq-content {
+                //display: none;
+            }
+
+            p {
+                margin-top: 12px;
+                font-size: 16px;
+                line-height: 140%;
+            }
+            &.active {
+                h3 {
+                    max-width: 650px;
+                    cursor: default;
+                }
+                .faq-content {
+                    max-width: 650px;
+                    display: block;
+                }
+
+            }
+            &:last-of-type {
+                border-bottom: 1px solid var(--color-border-dark);
+                margin-bottom: 14px;
+            }
+        }
+
+
+
+
+    }
+
+
+}

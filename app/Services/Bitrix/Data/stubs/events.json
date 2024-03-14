@@ -1,0 +1,98 @@
+[
+    {
+        "ID": "10",
+        "TIMESTAMP_X": "2023-07-06T02:46:52+03:00",
+        "EVENT_NAME": "ONIMCONNECTORMESSAGEADD",
+        "EVENT_DATA": {
+            "CONNECTOR": "dev_colife_ru_chat",
+            "LINE": "26",
+            "MESSAGES": [
+                {
+                    "im": {
+                        "chat_id": 9324,
+                        "message_id": 82964
+                    },
+                    "message": {
+                        "user_id": 10,
+                        "text": "[b]Дмитрий Зюзин:[/b][br]ответ",
+                        "files": [],
+                        "attachments": [],
+                        "params": []
+                    },
+                    "chat": {
+                        "id": "chat01H4M707QSAW70Y7NZQJ1AQ9NC"
+                    },
+                    "attachments_old": []
+                }
+            ]
+        },
+        "EVENT_ADDITIONAL": {
+            "user_id": "10"
+        },
+        "MESSAGE_ID": "93d6e9b93c83d6b2ba24e39f182d049c"
+    },
+    {
+        "ID": "20",
+        "TIMESTAMP_X": "2023-07-06T02:49:28+03:00",
+        "EVENT_NAME": "ONIMCONNECTORMESSAGEADD",
+        "EVENT_DATA": {
+            "CONNECTOR": "dev_colife_ru_chat",
+            "LINE": "26",
+            "MESSAGES": [
+                {
+                    "im": {
+                        "chat_id": 9326,
+                        "message_id": 82996
+                    },
+                    "message": {
+                        "user_id": 10,
+                        "text": "[b]Дмитрий Зюзин:[/b][br]ответ 2",
+                        "files": [],
+                        "attachments": [],
+                        "params": []
+                    },
+                    "chat": {
+                        "id": "chat01H4M78JXQP53X0H3518XZQT7P"
+                    },
+                    "attachments_old": []
+                }
+            ]
+        },
+        "EVENT_ADDITIONAL": {
+            "user_id": "10"
+        },
+        "MESSAGE_ID": "4dfff57b5291cf377630e451e2146950"
+    },
+    {
+        "ID": "26",
+        "TIMESTAMP_X": "2023-07-06T02:50:10+03:00",
+        "EVENT_NAME": "ONIMCONNECTORMESSAGEADD",
+        "EVENT_DATA": {
+            "CONNECTOR": "dev_colife_ru_chat",
+            "LINE": "26",
+            "MESSAGES": [
+                {
+                    "im": {
+                        "chat_id": 9326,
+                        "message_id": 82998
+                    },
+                    "message": {
+                        "user_id": 10,
+                        "text": "[b]Дмитрий Зюзин:[/b][br]ответ 3",
+                        "files": [],
+                        "attachments": [],
+                        "params": []
+                    },
+                    "chat": {
+                        "id": "chat01H4M78JXQP53X0H3518XZQT7P"
+                    },
+                    "attachments_old": []
+                }
+            ]
+        },
+        "EVENT_ADDITIONAL": {
+            "user_id": "10"
+        },
+        "MESSAGE_ID": "2035613d4d920223ce35167b1ad1d910"
+    }
+]

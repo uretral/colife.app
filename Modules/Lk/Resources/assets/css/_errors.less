@@ -1,0 +1,21 @@
+@import "smart-grid";
+.errors {
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-view {
+        text-align: center;
+        b {
+            display: block;
+            .semiBold;
+            font-size: 24px;
+        }
+    }
+
+    &.coming-soon {
+        .col();
+        .size(12);
+        height: auto;
+    }
+}

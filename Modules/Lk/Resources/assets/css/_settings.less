@@ -1,0 +1,75 @@
+@import "smart-grid";
+
+.settings {
+    .col();
+    .size(12);
+    .xs-block({
+
+        .switcherMenu {
+            overflow-x: auto;
+            width: 100%;
+            a {
+                white-space: nowrap;
+                font-size: 12px;
+            }
+
+        }
+
+    });
+    h2 {
+        .darkBoldText(28px);
+        margin-bottom: 20px;
+    }
+    .switcher {
+        margin-bottom: 20px;
+    }
+    &-header {
+        margin-bottom: 20px;
+    }
+
+    &-body {
+        //display: flex;
+        //justify-content: space-between;
+        .row-flex;
+        align-items: flex-start;
+        .sm-block({
+            align-items: unset;
+        });
+        .xs-block({
+            //height: calc(100vh - 230px);
+            //overflow-y: auto;
+        });
+    }
+
+    &-notification {
+        .col();
+        .size(6);
+        .size-xs(12);
+        .box-32-24;
+        .xs-block({
+            padding: 24px;
+        });
+    }
+    &-notice {
+        .col();
+        .size(6);
+        .size-xs(12);
+        .box-32-24;
+        .xs-block({
+            padding: 24px;
+            margin-top: 16px;
+        });
+    }
+    &-docs {
+        .col();
+        .size(12);
+        .box-32-24;
+        margin-top: 16px;
+        .xs-block({
+            padding: 24px;
+        });
+    }
+
+
+}
+

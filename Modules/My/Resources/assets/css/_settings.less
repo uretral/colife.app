@@ -1,0 +1,115 @@
+@import "smart-grid";
+
+.settings {
+    .col();
+    .size(12);
+    .xs-block({
+        margin-top: 50px;
+        .switcherMenu-wpr.xs {
+            justify-content: flex-end;
+        }
+        .switcherMenu {
+            //overflow-x: auto;
+/*            width: 100%;
+            a {
+                white-space: nowrap;
+                font-size: 12px;
+            }*/
+
+        }
+
+    });
+    h2 {
+        .darkBoldText(28px);
+        margin-bottom: 20px;
+
+        .xs-block({
+            font-size: 24px;
+        });
+    }
+    .switcher {
+        margin-bottom: 20px;
+        .xs-block({
+            margin-bottom: 26px;
+        });
+    }
+    &-header {
+        .row-flex;
+        margin-bottom: 20px;
+
+        .xs-block({
+            width: 100vw;
+            position: fixed;
+            top: 60px;
+            padding-bottom: 8px;
+            background: var(--color-bg);
+            z-index: 2;
+        });
+    }
+
+    &-body {
+        //display: flex;
+        //justify-content: space-between;
+        .row-flex;
+        align-items: flex-start;
+        .sm-block({
+            align-items: unset;
+        });
+        .xs-block({
+            //height: calc(100vh - 230px);
+            //overflow-y: auto;
+
+        });
+    }
+
+    &-notification {
+        .col();
+        .size(6);
+        .size-xs(12);
+        .box-32-24;
+        .xs-block({
+            padding: 16px;
+            margin-bottom: 8px;
+        });
+
+        fieldset {
+            .xs-block({
+                padding-top: 5px;
+            });
+        }
+
+    }
+    &-notice {
+        .col();
+        .size(6);
+        .size-xs(12);
+        .box-32-24;
+        .xs-block({
+            padding: 16px;
+            margin-bottom: 8px;
+        });
+    }
+    &-docs {
+        .col();
+        .size(12);
+        .box-32-24;
+        margin-top: 16px;
+        .xs-block({
+            padding: 16px;
+            margin-top: 0;
+            margin-bottom: 24px;
+        });
+
+        .download-link {
+
+            a {
+                .xs-block({
+                    margin-bottom: 21px;
+                });
+            }
+        }
+    }
+
+
+}
+
